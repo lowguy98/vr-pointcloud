@@ -1,0 +1,38 @@
+{
+  "bindings": {
+    "/actions/masterproject": {
+      "sources": [
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/masterproject/in/Stop"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/trigger"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/masterproject/in/Stop"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/trigger"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/masterproject/in/Jump"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/trackpad"
+        }
+      ]
+    }
+  },
+   "controller_type" : "vive_controller",
+   "description" : "Bindings for the OpenVR SDK for the Vive controller",
+   "name" : "MasterProject bindings for Vive Controller"
+}
